@@ -1,0 +1,5 @@
+for processing all videos at once for siti values -          for %x in (*.mp4) do siti %x >> sitiinfo_youtube.json
+
+
+
+for %x in (*.mp4) do siti -f %x >> sitiinfo_youtube.json
